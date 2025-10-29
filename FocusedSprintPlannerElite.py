@@ -27,7 +27,7 @@ def login_screen():
 
     code_input = st.text_input(
         "Your access code:",
-        placeholder="GX7R-PL9F-23KQ"
+        placeholder="e.g AB12-CD34-EF56 code will be emailed to you within 24hrs of purchase."
     )
     unlock_clicked = st.button("Unlock Elite")
 
